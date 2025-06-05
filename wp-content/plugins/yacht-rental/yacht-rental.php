@@ -8,11 +8,11 @@ Author: Jorge Harim
 
 defined('ABSPATH') or die('¡No tienes acceso directo!');
 
-// Registrar CPT
-require_once plugin_dir_path(__FILE__) . 'includes/cpt-yate.php';
+// // Registrar CPT
+// require_once plugin_dir_path(__FILE__) . 'includes/cpt-yate.php';
 
-// Metaboxes (campos personalizados)
-require_once plugin_dir_path(__FILE__) . 'admin/metaboxes.php';
+// // Metaboxes (campos personalizados)
+// require_once plugin_dir_path(__FILE__) . 'admin/metaboxes.php';
 
-// Shortcodes
-require_once plugin_dir_path(__FILE__) . 'public/shortcodes.php';
+// // Shortcodes
+// require_once plugin_dir_path(__FILE__) . 'public/shortcodes.php';
