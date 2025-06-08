@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template for displaying a single yacht
+ */
+
+get_header(); ?>
 
 <div class="gy-single-yacht">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
